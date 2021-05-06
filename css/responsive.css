@@ -1,0 +1,59 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .content {
+    width: calc(33% - 10px);
+    margin: 5px;
+  }
+
+  .content h2 {
+   font-size: 16px;
+  }
+  .text-contents {
+    font-size: 10px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .content {
+    width: 100%;
+  }
+  
+  /* header-rightクラスのdisplayをnoneに指定してください */
+  .header-right{
+    display:none;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .content {
+    width: calc(50% - 10px);
+    margin: 5px;
+  }
+
+  .content h2 {
+   font-size: 12px;
+  }
+  .text-contents {
+    font-size: 10px;
+  }
+}
